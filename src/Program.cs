@@ -18,12 +18,12 @@ switch (Console.ReadLine())
     case "cyan":
         Console.BackgroundColor = ConsoleColor.Cyan;
         Console.ForegroundColor = ConsoleColor.Black;
-        Console.WriteLine("Your color is green!");
+        Console.WriteLine("Your color is cian!");
         break;
 
     default:
         Console.BackgroundColor = ConsoleColor.Yellow;
         Console.ForegroundColor = ConsoleColor.Red;
-        Console.WriteLine("Your color is cyan!");
+        Console.WriteLine("Your color is yellow!");
         break;
 }
