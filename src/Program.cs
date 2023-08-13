@@ -1,4 +1,6 @@
-﻿string A;
-string B;
+﻿int A;
+int B;
+double X;
+double Y;
 
-bool C = A != B;
+bool C = (A < B) || (X > Y)
